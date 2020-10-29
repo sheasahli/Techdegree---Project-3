@@ -6,8 +6,16 @@
   box-sizing: border-box;
 }
 
+body {
+  width: 100%;
+  margin: 0;
+  font-family: 'Merriweather';
+}
 
-
+main {
+  width: 95%;
+  margin: auto;
+}
 /* =================================
   Media Queries
 ==================================== */
