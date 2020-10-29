@@ -10,7 +10,7 @@ body {
   width: 100%;
   margin: 0;
   font-family: 'Merriweather';
-  font-size: 0.70em;
+  font-size: 0.70em
 }
 
 main {
@@ -19,10 +19,37 @@ main {
 }
 
 p {
-  color: grey;
+  color: #adadb8;
 }
 
+fieldset {
+  border: none;
+  line-height: 2.5;
+}
 
+legend {
+  font-size: 1.5em;
+  font-weight: bold;
+  padding-top: 1em;
+}
+
+label {
+  padding: 5px 0;
+
+}
+
+input[type='text'],
+select,
+textarea {
+  height: 40px;
+  background-color: #f1f1f3;
+  border-radius: 5px;
+  border: none;
+}
+
+textarea {
+  width: 100%;
+}
 /*  ========Base Layout Styles======= */
 
 .top-ban {
@@ -37,9 +64,21 @@ p {
 
 .sub-header {
   text-align: center;
-  padding: 1em;
   border-bottom: 4px solid black;
+  padding: 1em 0;
 }
+
+.wrap {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  margin: 3px 0;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+}
+
 /* =================================
   Media Queries
 ==================================== */
