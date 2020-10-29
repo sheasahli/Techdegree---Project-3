@@ -16,6 +16,21 @@ main {
   width: 95%;
   margin: auto;
 }
+
+
+/*  ========Base Layout Styles======= */
+
+.top-ban {
+  background-image: url(../imgs/code-banner.png);
+  background-size: contain;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 0.80em;
+  padding: 1em 0;
+}
+
+
 /* =================================
   Media Queries
 ==================================== */
