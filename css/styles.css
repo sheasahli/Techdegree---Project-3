@@ -153,12 +153,25 @@ input[type='radio'] {
   Media Queries
 ==================================== */
 
-@media (min-width: 769px) {
+@media (min-width: 768px) {
 
   main {
     width: 60%;
     margin: 0 auto;
+    max-width: 770px;
   }
 
+  .sub-header {
+    padding: 2.2em 0;
+  }
+
+  .wrap,
+  .newsletter {
+    padding-top: 2.5em;
+  }
+
+#zip {
+  width: 35%;
+}
 
 }
