@@ -110,7 +110,7 @@ textarea:focus {
   color: yellow;
 }
 
-.contact {
+.flex {
   display: flex;
   flex-direction: column;
 
