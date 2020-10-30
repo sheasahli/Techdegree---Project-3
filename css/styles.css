@@ -169,8 +169,27 @@ input[type='radio'] {
     padding-top: 2.5em;
   }
 
-#zip {
-  width: 35%;
-}
+  .flex {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0.85em 0;
+  }
 
+  label {
+    color: #4d4848;
+  }
+
+    input,
+    select {
+      flex-grow: 1;
+      max-width: 70%;
+    }
+
+  #zip {
+    width: 35%;
+  }
+
+  .copyright {
+    padding-top: 2em;
+  }
 }
