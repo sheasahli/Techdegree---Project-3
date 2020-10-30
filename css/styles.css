@@ -48,12 +48,20 @@ label {
 }
 
 input[type='text'],
+input[type='email'],
+input[type='telephone'],
 select,
 textarea {
   height: 40px;
   background-color: #f1f1f3;
   border-radius: 5px;
   border: none;
+}
+
+input[type='text']:focus,
+select:focus,
+textarea:focus {
+  color: yellow;
 }
 
 textarea {
@@ -104,7 +112,10 @@ textarea {
 
 .newsletter {
   padding: 1em 0
+}
 
+.descript {
+  margin-bottom: 10px 0;
 }
 
 input[type='checkbox'],
