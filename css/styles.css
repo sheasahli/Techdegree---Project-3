@@ -153,4 +153,12 @@ input[type='radio'] {
   Media Queries
 ==================================== */
 
-@media (min-width: 768px) {}
+@media (min-width: 769px) {
+
+  main {
+    width: 60%;
+    margin: 0 auto;
+  }
+
+
+}
