@@ -58,12 +58,6 @@ textarea {
   border: none;
 }
 
-input[type='text']:focus,
-select:focus,
-textarea:focus {
-  color: yellow;
-}
-
 textarea {
   width: 100%;
 }
@@ -92,6 +86,17 @@ textarea {
   padding: 1.2em 0;
 }
 
+input:focus,
+select:focus,
+textarea:focus {
+  background: #ffcc99;
+  border: none;
+}
+
+textarea:focus {
+  color: yellow;
+}
+
 .contact {
   display: flex;
   flex-direction: column;
@@ -115,7 +120,8 @@ textarea {
 }
 
 .descript {
-  margin-bottom: 10px 0;
+  float: left;
+  margin-top: 8px;
 }
 
 input[type='checkbox'],
