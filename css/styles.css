@@ -124,7 +124,7 @@ textarea:focus {
   opacity: .5;
 }
 
-#zip {
+  input[id="zip"] {
   width: 50%;
 }
 
@@ -179,17 +179,16 @@ input[type='radio'] {
     color: #4d4848;
   }
 
-  select,
-  #name,
-  #email,
-  #phone,
-  #address,
-  #city,
-  #state {
+  input,
+  select {
       flex-grow: 1;
       max-width: 70%;
     }
 
+  input[id="zip"] {
+      max-width: 30%;
+      margin-right: 40%;
+    }
 
   .copyright {
     padding-top: 2em;
