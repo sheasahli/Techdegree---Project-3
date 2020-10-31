@@ -179,15 +179,17 @@ input[type='radio'] {
     color: #4d4848;
   }
 
-    input,
-    select {
+  select,
+  #name,
+  #email,
+  #phone,
+  #address,
+  #city,
+  #state {
       flex-grow: 1;
       max-width: 70%;
     }
 
-  #zip {
-    width: 35%;
-  }
 
   .copyright {
     padding-top: 2em;
